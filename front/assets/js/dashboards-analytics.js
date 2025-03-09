@@ -374,8 +374,8 @@ fetch(url, {
   // --------------------------------------------------------------------
   const growthChartEl = document.querySelector('#growthChart'),
     growthChartOptions = {
-      series: [78],
-      labels: ['Growth'],
+      series: ['A'],
+      labels: ['Categoría'],
       chart: {
         height: 200,
         type: 'radialBar'
@@ -460,7 +460,7 @@ fetch(url, {
       series: [
         {
           name: new Date().getFullYear() - 1,
-          data: [18, 7, 15, 29, 18, 12, 9]
+          data: [18, 15, 15, 29, 18, 17, 29]
         },
         {
           name: new Date().getFullYear() - 2,
@@ -701,7 +701,7 @@ fetch(url, {
   const growthChartEl1 = document.querySelector('#growthChart1'),
     growthChartOptions1 = {
       series: [30],
-      labels: ['Growth'],
+      labels: ['Confianza'],
       chart: {
         height: 200,
         type: 'radialBar'
