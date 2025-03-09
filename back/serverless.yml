@@ -43,6 +43,7 @@ functions:
           path: predict
           method: post
           private: true
+          cors: true
 
   updateData:
     handler: handlers/updateData.updateData
