@@ -346,6 +346,27 @@ document.addEventListener('DOMContentLoaded', function (e) {
     totalRevenueChart.render();
   }
 
+  const apiKey = "RbwsFJ1ohHarOriXxZ7Km69uuuMiK2dc8aLXGgcZ";
+const url = "https://uner8kyg92.execute-api.us-west-2.amazonaws.com/dev/predict";
+
+const requestData = {
+    key1: "value1",
+    key2: "value2"  // Reemplaza con los datos reales que espera la API
+};
+
+fetch(url, {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+        "x-api-key": apiKey  // Agregamos la API Key en los headers
+    },
+    body: JSON.stringify(requestData)
+})
+.then(response => response.json())
+.then(data => console.log("Respuesta:", data))
+.catch(error => console.error("Error:", error));
+
+
 
   
 
