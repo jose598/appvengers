@@ -11,6 +11,7 @@ eggs/
 lib/
 lib64/
 parts/
+node_modules/
 sdist/
 var/
 *.egg-info/
