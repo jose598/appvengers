@@ -1,0 +1,80 @@
+{
+    name: "Glyn Giacoppo",
+    email: "ggiacoppo2r@apache.org",
+    date: "2021-04-15",
+    salary: "$1,200.00",
+    status: "Professional",
+    rank: "Oro"
+  },
+  {
+    name: "Evangelina Carnock",
+    email: "ecarnock2q@washington.edu",
+    date: "2021-01-26",
+    salary: "$980.50",
+    status: "Resigned",
+    rank: "Plata"
+  },
+  {
+    name: "Alice Doe",
+    email: "alice@example.com",
+    date: "2023-09-14",
+    salary: "$450.00",
+    status: "Professional",
+    rank: "Bronce"
+  },
+  {
+    name: "John Smith",
+    email: "john@example.com",
+    date: "2023-10-10",
+    salary: "$850.75",
+    status: "Resigned",
+    rank: "Plata"
+  },
+  {
+    name: "Bob Brown",
+    email: "bob@example.com",
+    date: "2024-01-01",
+    salary: "$1,500.00",
+    status: "Professional",
+    rank: "Oro"
+  },
+  {
+    name: "Clara Johnson",
+    email: "clara@example.com",
+    date: "2024-02-15",
+    salary: "$620.00",
+    status: "Professional",
+    rank: "Plata"
+  },
+  {
+    name: "David Lee",
+    email: "david@example.com",
+    date: "2022-06-21",
+    salary: "$540.00",
+    status: "Resigned",
+    rank: "Bronce"
+  },
+  {
+    name: "Sophia White",
+    email: "sophia@example.com",
+    date: "2023-04-11",
+    salary: "$1,800.00",
+    status: "Professional",
+    rank: "Oro"
+  },
+  {
+    name: "James Black",
+    email: "james@example.com",
+    date: "2023-12-02",
+    salary: "$475.00",
+    status: "Resigned",
+    rank: "Bronce"
+  },
+  {
+    name: "Olivia Green",
+    email: "olivia@example.com",
+    date: "2024-05-19",
+    salary: "$1,100.00",
+    status: "Professional",
+    rank: "Oro"
+  }
